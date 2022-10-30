@@ -26,15 +26,6 @@ class _MyAppState extends State<MyApp> {
       navigatorKey: navigatorKey,
       home: Scaffold(
         body: Container(
-          // decoration: BoxDecoration(
-          //     gradient: LinearGradient(
-          //   begin: Alignment.topRight,
-          //   end: Alignment.bottomLeft,
-          //   colors: [
-          //     Colors.yellow,
-          //     Colors.red,
-          //   ],
-          // )),
           child: Center(
             child: Stack(children: [
               Align(
