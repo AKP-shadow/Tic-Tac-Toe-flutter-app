@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
               Align(
                   alignment: Alignment.center,
                   child: Image.asset('images/board.png')),
-              _boardTiles(),
+              Align(alignment: Alignment.center,child:_boardTiles()),
               Column(
                 // mainAxisAlignment: MainAxisAlignment.,
                 children: [
